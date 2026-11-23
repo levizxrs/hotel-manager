@@ -23,7 +23,10 @@ Aplicação de linha de comando (CLI) desenvolvida em **C/C++** para automação
 
 ## 🎯 Visão Geral
 
-Em operações hoteleiras, o registro seguro de hóspedes, o controle de ocupação de quartos e a emissão rápida de relatórios são críticos. O **Hotel Manager** resolve esse fluxo em ambiente de terminal oferecendo armazenamento permanente em arquivo binário (`hospedagens.dat`), prevenção contra duplicidade de chaves e preservação de histórico por meio de **exclusão lógica**.
+Em rotinas de recepção hoteleira, falhas no registro de hóspedes, conflitos de identificadores e a exclusão definitiva de registros comprometem o controle operacional e a auditoria de dados. O **Hotel Manager** resolve esse cenário por meio de uma arquitetura leve em terminal que separa o **armazenamento estruturado** da **camada de visualização**:
+
+- **Integridade e Auditoria:** Os dados são persistidos em formato binário (`hospedagens.dat`) com validação prévia de chave primária e **exclusão lógica** (`status`), preservando o histórico completo de check-ins encerrados ou cancelados sem fragmentar o arquivo.
+- **Portabilidade e Controle:** Para facilitar a leitura externa e o acompanhamento gerencial, o sistema desacopla a base binária da emissão de relatórios em texto puro (`hospedagens.txt`) e oferece contagem instantânea de registros ativos e inativos.
 
 ---
 
