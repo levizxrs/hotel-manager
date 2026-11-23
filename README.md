@@ -97,9 +97,8 @@ Cada registro armazenado no arquivo binário segue um layout fixo de bytes defin
 
 ---
 
-## 💻 Demonstração de Uso
+## 🖥️ Interface do Sistema (CLI)
 
-### Menu Interativo e Consulta
 ```text
 ==============================
         HOTEL MANAGER         
@@ -112,7 +111,6 @@ Cada registro armazenado no arquivo binário segue um layout fixo de bytes defin
 6. Contar registros
 0. Sair
 ------------------------------
-```
 
 ---
 
