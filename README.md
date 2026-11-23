@@ -5,7 +5,7 @@
 ![Persistência](https://img.shields.io/badge/Persist%C3%AAncia-Arquivos%20Bin%C3%A1rios%20%26%20TXT-success?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
 
-Sistema de linha de comando (CLI) desenvolvido em **C/C++** para gerenciamento completo de check-in e controle de hospedagens hoteleiras. O projeto foi projetado com foco em **modularização**, **integridade de dados em disco** e **manipulação eficiente de memória e arquivos** sem dependência de bibliotecas externas.
+Aplicação de linha de comando (CLI) desenvolvida em **C/C++** para automação de check-in e gestão de hospedagens hoteleiras. Construída integralmente com bibliotecas padrão (*zero dependências externas*), a solução aplica **arquitetura modular**, **persistência binária com acesso direto em disco (`fseek`)**, **exclusão lógica (*soft delete*)** para integridade histórica e **exportação automatizada de relatórios** em texto.
 
 ---
 
