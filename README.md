@@ -75,4 +75,61 @@ Cada registro armazenado no arquivo binário segue um layout fixo de bytes defin
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/levizxrs/](https://github.com/levizxrs/)
+   git clone [https://github.com/levizxrs/hotel-manager-cpp.git](https://github.com/levizxrs/hotel-manager-cpp.git)
+   cd hotel-manager-cpp
+   ```
+
+2. **Compile o código-fonte (com flags de verificação):**
+   ```bash
+   g++ -Wall -Wextra main.cpp -o hotel_manager
+   ```
+   *(Alternativa em compilador C: `gcc -Wall -Wextra main.cpp -o hotel_manager`)*
+
+3. **Execute a aplicação:**
+   - **Windows (CMD / PowerShell):**
+     ```cmd
+     hotel_manager.exe
+     ```
+   - **Linux / macOS:**
+     ```bash
+     ./hotel_manager
+     ```
+
+---
+
+## 🖥️ Interface do Sistema (CLI)
+
+```text
+==============================
+        HOTEL MANAGER         
+==============================
+1. Cadastrar hospedagem
+2. Consultar por codigo
+3. Listar hospedagens
+4. Excluir hospedagem
+5. Exportar para TXT
+6. Contar registros
+0. Sair
+------------------------------
+```
+
+---
+
+## 📁 Estrutura do Repositório
+
+```text
+hotel-manager-cpp/
+├── main.cpp        # Código-fonte principal
+└── README.md       # Documentação técnica e guia de compilação
+```
+
+---
+
+## 👨‍💻 Autor
+
+**Levi Marques do Vale**
+- GitHub: [@levizxrs](https://github.com/levizxrs)
+- LinkedIn: [Levi Marques do Vale](https://www.linkedin.com/in/levimarques)
+
+---
+*Projeto desenvolvido como atividade prática da disciplina de Laboratório de Programação Estruturada em C/C++.*
